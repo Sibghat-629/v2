@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { GitBranch, Mail, Phone, MapPin, ExternalLink, Code2, BrainCircuit, Terminal, Blocks, Github, Linkedin, Twitter, Award, Zap, TrendingUp } from "lucide-react";
+import { GitBranch, Mail, Phone, MapPin, Code2, BrainCircuit, Terminal, Blocks, Award, Zap, TrendingUp } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function Home() {
@@ -156,7 +156,7 @@ export default function Home() {
               <Mail size={18} /> Contact Me
             </motion.a>
             <motion.a 
-              href="https://github.com/Sibghat-629" 
+              href="https://GitBranch.com/Sibghat-629" 
               target="_blank" 
               rel="noreferrer" 
               className="btn btn-secondary" 
@@ -164,7 +164,7 @@ export default function Home() {
               whileHover={{ scale: 1.05, y: -5 }}
               whileTap={{ scale: 0.95 }}
             >
-              <GitBranch size={18} /> GitHub
+              <GitBranch size={18} /> GitBranch
             </motion.a>
           </motion.div>
           <motion.div className="flex gap-4 mt-6 text-sm text-gray-400 items-center flex-wrap" variants={fadeIn}>
@@ -275,13 +275,13 @@ export default function Home() {
             </div>
             <div className="project-links">
               <motion.a 
-                href="https://github.com/Sibghat-629" 
+                href="https://GitBranch.com/Sibghat-629" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="project-link"
                 whileHover={{ x: 5, backgroundColor: "rgba(59, 130, 246, 0.3)" }}
               >
-                <Github size={16} /> View Code
+                <GitBranch size={16} /> View Code
               </motion.a>
             </div>
           </motion.div>
@@ -313,13 +313,13 @@ export default function Home() {
             </div>
             <div className="project-links">
               <motion.a 
-                href="https://github.com/Sibghat-629" 
+                href="https://GitBranch.com/Sibghat-629" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="project-link"
                 whileHover={{ x: 5, backgroundColor: "rgba(59, 130, 246, 0.3)" }}
               >
-                <Github size={16} /> View Code
+                <GitBranch size={16} /> View Code
               </motion.a>
             </div>
           </motion.div>
@@ -351,13 +351,13 @@ export default function Home() {
             </div>
             <div className="project-links">
               <motion.a 
-                href="https://github.com/Sibghat-629" 
+                href="https://GitBranch.com/Sibghat-629" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="project-link"
                 whileHover={{ x: 5, backgroundColor: "rgba(59, 130, 246, 0.3)" }}
               >
-                <Github size={16} /> View Code
+                <GitBranch size={16} /> View Code
               </motion.a>
             </div>
           </motion.div>
@@ -389,13 +389,13 @@ export default function Home() {
             </div>
             <div className="project-links">
               <motion.a 
-                href="https://github.com/Sibghat-629" 
+                href="https://GitBranch.com/Sibghat-629" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="project-link"
                 whileHover={{ x: 5, backgroundColor: "rgba(59, 130, 246, 0.3)" }}
               >
-                <Github size={16} /> View Code
+                <GitBranch size={16} /> View Code
               </motion.a>
             </div>
           </motion.div>
@@ -680,7 +680,7 @@ export default function Home() {
               <Mail size={18} /> Get In Touch
             </motion.a>
             <motion.a 
-              href="https://github.com/Sibghat-629" 
+              href="https://GitBranch.com/Sibghat-629" 
               target="_blank" 
               rel="noreferrer" 
               className="btn btn-secondary" 
@@ -688,7 +688,7 @@ export default function Home() {
               whileHover={{ scale: 1.08, y: -8 }}
               whileTap={{ scale: 0.92 }}
             >
-              <Github size={18} /> View My Work
+              <GitBranch size={18} /> View My Work
             </motion.a>
           </motion.div>
         </motion.div>
@@ -807,8 +807,8 @@ export default function Home() {
             </motion.div>
 
             <motion.div className="footer-links" variants={fadeIn}>
-              <a href="https://github.com/Sibghat-629" target="_blank" rel="noreferrer" title="GitHub">
-                <Github size={20} /> GitHub
+              <a href="https://GitBranch.com/Sibghat-629" target="_blank" rel="noreferrer" title="GitBranch">
+                <GitBranch size={20} /> GitBranch
               </a>
               <a href="mailto:sibghatullahiqbal629@gmail.com" title="Email">
                 <Mail size={20} /> Email
